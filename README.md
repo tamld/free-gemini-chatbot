@@ -1,11 +1,17 @@
 # Google Gemini AI - Chat App
 
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![GUI: Tkinter](https://img.shields.io/badge/GUI-Tkinter-informational)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI-4285F4?logo=google&logoColor=white)
+
 This is a Python application that utilizes Google Gemini AI's capabilities to provide an interactive chatbot experience. The app has a graphical user interface (GUI) built with `Tkinter`, and it uses Google Gemini models to generate responses based on user input.
 
 ## Features
 
 - **Chat Interface**: A simple and user-friendly chat interface that allows users to interact with the chatbot.
-- **Model Selection**: Users can select between two models provided by Google Gemini AI: `gemini-1.5-flash` (free) and `gemini-exp-1114` (latest).
+- **Model Selection**: Users can select between two models provided by Google Gemini AI: `gemini-2.0-flash` (free, fast) and `gemini-2.5-pro` (latest, most capable).
 - **End Scroll Button**: A "Go to End" button allows the user to quickly scroll to the latest messages in the chat.
 - **API Key Management**: Securely manage Google Gemini AI API keys using local encryption.
 - **Supports Code Formatting**: The chatbot supports rendering responses with syntax-highlighted code blocks.
@@ -14,7 +20,7 @@ This is a Python application that utilizes Google Gemini AI's capabilities to pr
 
 To run the chatbot, you'll need:
 - Python 3.8 or newer installed on your system.
-- Google Gemini AI API [Key]((https://aistudio.google.com/)). Make sure you have a valid API key to use with the application.
+- Google Gemini AI API [Key](https://aistudio.google.com/). Make sure you have a valid API key to use with the application.
 
 ## Installation Guide
 
